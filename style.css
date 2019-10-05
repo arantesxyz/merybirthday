@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: normal;
     color: hsl(0, 0%, 90%);
@@ -35,7 +35,7 @@ body {
 # site-header
 ------------------------------------------------------------*/
 .home-page {
-    background: url(images/middle-cover.jpg) no-repeat;
+    background: url(images/middle-covr.jpeg) no-repeat;
 }
 
 .site-header {
@@ -87,7 +87,7 @@ body {
     max-width: 24px;
     height: 22px;
     margin-left: auto;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     cursor: pointer;
 }
 
@@ -100,7 +100,7 @@ body {
     border-radius: 10px;
     opacity: 1;
     left: 0;
-    transition: .25s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .hamburger-menu span:nth-child(1) {
@@ -145,7 +145,7 @@ body {
     height: 22px;
     overflow: hidden;
     list-style: none;
-    transition: all .35s;
+    transition: all 0.35s;
     color: hsl(0, 0%, 100%);
 }
 
@@ -232,8 +232,8 @@ body {
 -----------------------------------------------------------*/
 .hero-content {
     padding: 220px 0;
-    background: url("images/cover.jpg") no-repeat;
-    background-size: cover;
+    background: url("images/jesus.jpeg") no-repeat;
+    background-size: contain;
 }
 
 .hero-content .entry-header {
@@ -245,7 +245,7 @@ body {
     padding: 50px;
     margin: 0;
     font-family: mountains;
-    font-size:120px;
+    font-size: 120px;
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -255,7 +255,7 @@ body {
     position: absolute;
     width: 100%;
     top: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 500;
     color: hsl(0, 0%, 90%);
@@ -319,7 +319,8 @@ body {
     font-weight: 600;
 }
 
-.hero-content .entry-footer a:hover, .hero-content .entry-footer .current {
+.hero-content .entry-footer a:hover,
+.hero-content .entry-footer .current {
     background: -webkit-linear-gradient(#00d0ff, #25ffbf);
     color: hsl(0, 0%, 0%);
 }
@@ -450,7 +451,9 @@ body {
         width: calc(100% + 75px);
     }
 
-    .lineup-artists .lineup-artists-wrap:nth-of-type(even) .lineup-artists-description-container {
+    .lineup-artists
+        .lineup-artists-wrap:nth-of-type(even)
+        .lineup-artists-description-container {
         right: -75px;
         left: auto;
     }
@@ -466,7 +469,6 @@ body {
         padding: 50px;
     }
 }
-
 
 @media screen and (min-width: 1200px) {
     .lineup-artists .lineup-artists-wrap .lineup-artists-description-container {
@@ -555,7 +557,6 @@ body {
     }
 }
 
-
 @media screen and (min-width: 1200px) {
     .the-complete-lineup-artists .artist-single:nth-child(1) {
         margin-top: 2px;
@@ -594,7 +595,7 @@ body {
 # see the-complete-lineup button
 ------------------------------------------------------------*/
 .see-complete-lineup {
-    margin-top: 105px
+    margin-top: 105px;
 }
 
 .see-complete-lineup .entry-footer .btn {
@@ -665,9 +666,9 @@ body {
     height: 100%;
     padding: 30px;
     text-align: center;
-    background: rgba(0,0,0,.75);
+    background: rgba(0, 0, 0, 0.75);
     text-decoration: none;
-    transition: all .5s;
+    transition: all 0.5s;
     opacity: 0;
     visibility: hidden;
 }
@@ -703,7 +704,7 @@ body {
     width: 100%;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .next-event-slider-wrap .swiper-button-next {
         bottom: -42px;
         width: 84px;
@@ -980,7 +981,7 @@ body {
 }
 
 .page-header .breadcrumbs li::after {
-    content: '/';
+    content: "/";
     position: absolute;
     top: 3px;
     right: 0;
@@ -1088,7 +1089,14 @@ body {
 ------------------------------------------------------------*/
 .testimonial-wrap {
     position: relative;
-    background-image: linear-gradient(to bottom, #0196bf, #00a0bc, #00a9b3, #00b1a4, #1bb791);
+    background-image: linear-gradient(
+        to bottom,
+        #0196bf,
+        #00a0bc,
+        #00a9b3,
+        #00b1a4,
+        #1bb791
+    );
 }
 
 .testimonials-container,
@@ -1181,7 +1189,7 @@ body {
     height: 100%;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1195,8 +1203,7 @@ body {
     }
 }
 
-
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1207,8 +1214,7 @@ body {
     }
 }
 
-
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1500px) {
     .testimonials-container,
     .testimonial-featured-image {
         width: 50%;
@@ -1276,13 +1282,13 @@ body {
     line-height: 1.8;
 }
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
     .tabs .tab-nav {
         padding: 20px;
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .tabs .tab-content {
         padding: 48px;
     }
@@ -1325,7 +1331,7 @@ body {
     color: #040608;
 }
 
-.single-event-details-row p.sold-out span{
+.single-event-details-row p.sold-out span {
     color: #ff0000;
 }
 
@@ -1490,12 +1496,12 @@ body {
 .blog-page .blog-list-page .blog-content {
     margin-top: 100px;
     box-shadow: 15px 18px 100px rgba(0, 0, 0, 0.1);
-    transition: .35s;
+    transition: 0.35s;
 }
 
 .blog-page .blog-list-page .blog-content:hover {
     box-shadow: 15px 18px 100px rgba(0, 0, 0, 0.3);
-    transition: .35s;
+    transition: 0.35s;
 }
 
 .blog-page .blog-list-page .blog-content .featured-image {
@@ -1631,7 +1637,6 @@ body {
     margin-top: 115px;
     padding: 0 15px;
 }
-
 
 @media screen and (min-width: 992px) {
     .contact-page .get-in-touch {
@@ -1784,7 +1789,6 @@ body {
     font-weight: 500;
     color: #989898;
 }
-
 
 .tabs ul {
     margin: 0;
@@ -1946,11 +1950,3 @@ body {
 .icon-box-3 .entry-header::before {
     content: "03.";
 }
-
-
-
-
-
-
-
-
