@@ -246,7 +246,7 @@ body {
     margin: 0;
     font-family: mountains;
     font-size: 120px;
-    background: -webkit-linear-gradient(#00d0ff, #25ffbf);
+    background: -webkit-linear-gradient(#d6c45a, #474603);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -258,7 +258,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 100%);
     text-align: center;
 }
 
@@ -292,14 +292,14 @@ body {
     font-size: 72px;
     font-weight: 600;
     line-height: 1;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 21%);
 }
 
 .countdown-holder label {
     display: block;
     font-size: 18px;
     font-weight: 600;
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 27%);
 }
 
 /*------------------------------------------------------------
